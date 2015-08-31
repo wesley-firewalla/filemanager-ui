@@ -1,0 +1,25 @@
+<nav class="sidebar" ng-controller="NavigationController">
+    <button type="button" class="btn btn-primary btn-upload"><i class="fa fa-plus"></i>Upload File</button>
+    <ul class="nav nav-sidebar">
+        <li ng-class="getMenuItemPropClasses('app.disk')">
+            <a ng-href="{{$state.href('app.disk')}}"><i class="fa fa-book"></i>Folder</a>
+        </li>
+        <li ng-class="getMenuItemPropClasses('app.recent')">
+            <a ng-href="{{$state.href('app.recent')}}"><i class="fa fa-clock-o"></i>Recent</a>
+        </li>
+        <li role="separator" class="divider"></li>
+        <li ng-class="getMenuItemPropClasses('app.doc')">
+            <a ng-href="{{$state.href('app.doc')}}"><i class="fa fa-file"></i>Document</a>
+        </li>
+        <li ng-class="getMenuItemPropClasses('app.image')">
+            <a ng-href="{{$state.href('app.image')}}"><i class="fa fa-file-image-o"></i>Image</a>
+        </li>
+        <li ng-class="getMenuItemPropClasses('app.audio')">
+            <a ng-href="{{$state.href('app.audio')}}"><i class="fa fa-music"></i>Music</a>
+        </li>
+        <li ng-class="getMenuItemPropClasses('app.video')">
+            <a ng-href="{{$state.href('app.video')}}"><i class="fa fa-file-video-o"></i>Video</a>
+        </li>
+    </ul>
+</nav>
+<div ui-view="" ng-class="app.viewAnimation" class="content-wrapper"></div>

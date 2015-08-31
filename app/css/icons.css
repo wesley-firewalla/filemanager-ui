@@ -1,0 +1,825 @@
+.list-view .filetype {
+    background-image: url(../img/file-small.png);
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    margin-bottom: -12px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.icon-folder {
+    background-position: 1px 2px
+}
+
+.icon-offline {
+    background-position: -163px 2px;
+}
+
+.icon-doc {
+    background-position: 1px -80px
+}
+
+.icon-docx {
+    background-position: -81px -80px
+}
+
+.icon-vsd {
+    background-position: -163px -80px
+}
+
+.icon-wps {
+    background-position: -245px -80px
+}
+
+.icon-ppt {
+    background-position: -327px -80px
+}
+
+.icon-pptx {
+    background-position: -409px -80px
+}
+
+.icon-dps {
+    background-position: -491px -80px
+}
+
+.icon-msg {
+    background-position: -573px -80px
+}
+
+.icon-xls {
+    background-position: -655px -80px
+}
+
+.icon-xlsx {
+    background-position: -737px -80px
+}
+
+.icon-et {
+    background-position: -819px -80px
+}
+
+.icon-pdf {
+    background-position: 1px -162px
+}
+
+.icon-txt {
+    background-position: -81px -162px
+}
+
+.icon-key {
+    background-position: -163px -162px
+}
+
+.icon-rp {
+    background-position: -245px -162px
+}
+
+.icon-numbers {
+    background-position: -327px -162px
+}
+
+.icon-pages {
+    background-position: -409px -162px
+}
+
+.icon-keynote {
+    background-position: -491px -162px
+}
+
+.icon-jpg {
+    background-position: 1px -244px
+}
+
+.icon-jpeg {
+    background-position: -81px -244px
+}
+
+.icon-png {
+    background-position: -163px -244px
+}
+
+.icon-gif {
+    background-position: -245px -244px
+}
+
+.icon-bmp {
+    background-position: -327px -244px
+}
+
+.icon-psd {
+    background-position: -409px -244px
+}
+
+.icon-ai {
+    background-position: -491px -244px
+}
+
+.icon-eps {
+    background-position: -573px -244px
+}
+
+.icon-avi {
+    background-position: 1px -326px
+}
+
+.icon-asf {
+    background-position: -81px -326px
+}
+
+.icon-mp4 {
+    background-position: -163px -326px
+}
+
+.icon-mkv {
+    background-position: -245px -326px
+}
+
+.icon-mov {
+    background-position: -327px -326px
+}
+
+.icon-mod {
+    background-position: -409px -326px
+}
+
+.icon-mpe {
+    background-position: -491px -326px
+}
+
+.icon-3gp {
+    background-position: -573px -326px
+}
+
+.icon-rmvb {
+    background-position: -655px -326px
+}
+
+.icon-wmv {
+    background-position: -737px -326px
+}
+
+.icon-wmf {
+    background-position: -819px -326px
+}
+
+.icon-mpg {
+    background-position: -903px -326px
+}
+
+.icon-mpeg {
+    background-position: -985px -326px
+}
+
+.icon-rm {
+    background-position: 1px -408px
+}
+
+.icon-dat {
+    background-position: -81px -408px
+}
+
+.icon-f4a {
+    background-position: -163px -408px
+}
+
+.icon-webm {
+    background-position: -245px -408px
+}
+
+.icon-swf {
+    background-position: -327px -408px
+}
+
+.icon-flv {
+    background-position: -409px -408px
+}
+
+.icon-fla {
+    background-position: -491px -408px
+}
+
+.icon-mp3 {
+    background-position: 1px -490px
+}
+
+.icon-wma {
+    background-position: -81px -490px
+}
+
+.icon-wav {
+    background-position: -163px -490px
+}
+
+.icon-ogg {
+    background-position: -245px -490px
+}
+
+.icon-acc {
+    background-position: -327px -490px
+}
+
+.icon-m4a {
+    background-position: -409px -490px
+}
+
+.icon-wave {
+    background-position: -491px -490px
+}
+
+.icon-midi {
+    background-position: -573px -490px
+}
+
+.icon-ape {
+    background-position: -655px -490px
+}
+
+.icon-aac {
+    background-position: -737px -490px
+}
+
+.icon-aiff {
+    background-position: -819px -490px
+}
+
+.icon-mid {
+    background-position: -903px -490px
+}
+
+.icon-xmf {
+    background-position: -985px -490px
+}
+
+.icon-rtttl {
+    background-position: -1067px -490px
+}
+
+.icon-flac {
+    background-position: 1px -572px
+}
+
+.icon-amr {
+    background-position: -81px -572px
+}
+
+.icon-ipa {
+    background-position: 1px -654px
+}
+
+.icon-apk {
+    background-position: -81px -654px
+}
+
+.icon-exe {
+    background-position: -163px -654px
+}
+
+.icon-msi {
+    background-position: -245px -654px
+}
+
+.icon-bat {
+    background-position: -327px -654px
+}
+
+.icon-log {
+    background-position: -409px -654px
+}
+
+.icon-xmin {
+    background-position: -491px -654px
+}
+
+.icon-htm {
+    background-position: -573px -654px
+}
+
+.icon-html {
+    background-position: -655px -654px
+}
+
+.icon-c {
+    background-position: -737px -654px
+}
+
+.icon-xml {
+    background-position: -819px -654px
+}
+
+.icon-link {
+    background-position: -903px -654px
+}
+
+.icon-asp {
+    background-position: 1px -736px
+}
+
+.icon-chm {
+    background-position: -81px -736px
+}
+
+.icon-hlp {
+    background-position: -163px -736px
+}
+
+.icon-ttf {
+    background-position: -245px -736px
+}
+
+.icon-ttc {
+    background-position: -327px -736px
+}
+
+.icon-otf {
+    background-position: -409px -736px
+}
+
+.icon-fon {
+    background-position: -491px -736px
+}
+
+.icon-bak {
+    background-position: -573px -736px
+}
+
+.icon-tmp {
+    background-position: -655px -736px
+}
+
+.icon-old {
+    background-position: -737px -736px
+}
+
+.icon-zip {
+    background-position: 1px -818px
+}
+
+.icon-7z {
+    background-position: -81px -818px
+}
+
+.icon-rar {
+    background-position: -163px -818px
+}
+
+.icon-iso {
+    background-position: -245px -818px
+}
+
+.icon-ace {
+    background-position: -327px -818px
+}
+
+.icon-cab {
+    background-position: -409px -818px
+}
+
+.icon-uue {
+    background-position: -491px -818px
+}
+
+.icon-jar {
+    background-position: -573px -818px
+}
+
+.icon-tar {
+    background-position: -655px -818px
+}
+
+.icon-dmg {
+    background-position: -737px -818px
+}
+
+.icon-document,
+.icon-exec,
+.icon-code,
+.icon-image,
+.icon-video,
+.icon-compress,
+.icon-unknow,
+.icon-file {
+    background-position: -163px -900px
+}
+
+.icon-filebroken {
+    background-position: -245px -900px
+}
+
+.grid-view .filetype {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.grid-view .dirs,
+.grid-view .files {
+    padding: 4px 0 0 4px;
+}
+
+.grid-view .filetype {
+    background-image: url(../img/file.png);
+}
+
+.grid-view .icon-folder {
+    background-position: 0px 2px;
+}
+
+.grid-view .icon-mail {
+    background-position: -114px 2px;
+}
+
+.grid-view .icon-doc {
+    background-position: 1px -114px;
+}
+
+.grid-view .icon-docx {
+    background-position: -114px -114px;
+}
+
+.grid-view .icon-vsd {
+    background-position: -228px -114px;
+}
+
+.grid-view .icon-wps {
+    background-position: -342px -114px;
+}
+
+.grid-view .icon-ppt {
+    background-position: -456px -114px;
+}
+
+.grid-view .icon-pptx {
+    background-position: -570px -114px;
+}
+
+.grid-view .icon-dps {
+    background-position: -684px -114px;
+}
+
+.grid-view .icon-msg {
+    background-position: -798px -114px;
+}
+
+.grid-view .icon-xls {
+    background-position: -912px -114px;
+}
+
+.grid-view .icon-xlsx {
+    background-position: -1026px -114px;
+}
+
+.grid-view .icon-et {
+    background-position: -1140px -114px;
+}
+
+.grid-view .icon-pdf {
+    background-position: 1px -228px;
+}
+
+.grid-view .icon-txt {
+    background-position: -114px -228px;
+}
+
+.grid-view .icon-key {
+    background-position: -228px -228px;
+}
+
+.grid-view .icon-rp {
+    background-position: -342px -228px;
+}
+
+.grid-view .icon-numbers {
+    background-position: -456px -228px;
+}
+
+.grid-view .icon-pages {
+    background-position: -570px -228px;
+}
+
+.grid-view .icon-keynote {
+    background-position: -684px -228px;
+}
+
+.grid-view .icon-jpg {
+    background-position: 1px -342px;
+}
+
+.grid-view .icon-jpeg {
+    background-position: -114px -342px;
+}
+
+.grid-view .icon-png {
+    background-position: -228px -342px;
+}
+
+.grid-view .icon-gif {
+    background-position: -342px -342px;
+}
+
+.grid-view .icon-bmp {
+    background-position: -456px -342px;
+}
+
+.grid-view .icon-psd {
+    background-position: -570px -342px;
+}
+
+.grid-view .icon-ai {
+    background-position: -684px -342px;
+}
+
+.grid-view .icon-eps {
+    background-position: -798px -342px;
+}
+
+.grid-view .icon-avi {
+    background-position: 1px -456px;
+}
+
+.grid-view .icon-asf {
+    background-position: -114px -456px;
+}
+
+.grid-view .icon-mp4 {
+    background-position: -228px -456px;
+}
+
+.grid-view .icon-mkv {
+    background-position: -342px -456px;
+}
+
+.grid-view .icon-mov {
+    background-position: -456px -456px;
+}
+
+.grid-view .icon-mod {
+    background-position: -570px -456px;
+}
+
+.grid-view .icon-mpe {
+    background-position: -684px -456px;
+}
+
+.grid-view .icon-3gp {
+    background-position: -798px -456px;
+}
+
+.grid-view .icon-rmvb {
+    background-position: -912px -456px;
+}
+
+.grid-view .icon-wmv {
+    background-position: -1026px -456px;
+}
+
+.grid-view .icon-wmf {
+    background-position: -1140px -456px;
+}
+
+.grid-view .icon-mpg {
+    background-position: -1254px -456px;
+}
+
+.grid-view .icon-mpeg {
+    background-position: -1368px -456px;
+}
+
+.grid-view .icon-rm {
+    background-position: 1px -570px;
+}
+
+.grid-view .icon-dat {
+    background-position: -114px -570px;
+}
+
+.grid-view .icon-f4a {
+    background-position: -228px -570px;
+}
+
+.grid-view .icon-webm {
+    background-position: -342px -570px;
+}
+
+.grid-view .icon-swf {
+    background-position: -456px -570px;
+}
+
+.grid-view .icon-flv {
+    background-position: -570px -570px;
+}
+
+.grid-view .icon-fla {
+    background-position: -684px -570px;
+}
+
+.grid-view .icon-mp3 {
+    background-position: 1px -684px;
+}
+
+.grid-view .icon-wma {
+    background-position: -114px -684px;
+}
+
+.grid-view .icon-wav {
+    background-position: -228px -684px;
+}
+
+.grid-view .icon-ogg {
+    background-position: -342px -684px;
+}
+
+.grid-view .icon-acc {
+    background-position: -456px -684px;
+}
+
+.grid-view .icon-m4a {
+    background-position: -570px -684px;
+}
+
+.grid-view .icon-wave {
+    background-position: -684px -684px;
+}
+
+.grid-view .icon-midi {
+    background-position: -798px -684px;
+}
+
+.grid-view .icon-ape {
+    background-position: -912px -684px;
+}
+
+.grid-view .icon-aac {
+    background-position: -1026px -684px;
+}
+
+.grid-view .icon-aiff {
+    background-position: -1140px -684px;
+}
+
+.grid-view .icon-mid {
+    background-position: -1254px -684px;
+}
+
+.grid-view .icon-xmf {
+    background-position: -1368px -684px;
+}
+
+.grid-view .icon-rtttl {
+    background-position: -1482px -684px;
+}
+
+.grid-view .icon-flac {
+    background-position: 1px -798px;
+}
+
+.grid-view .icon-amr {
+    background-position: -114px -798px;
+}
+
+.grid-view .icon-ipa {
+    background-position: 1px -912px;
+}
+
+.grid-view .icon-apk {
+    background-position: -114px -912px;
+}
+
+.grid-view .icon-exe {
+    background-position: -228px -912px;
+}
+
+.grid-view .icon-msi {
+    background-position: -342px -912px;
+}
+
+.grid-view .icon-bat {
+    background-position: -456px -912px;
+}
+
+.grid-view .icon-log {
+    background-position: -570px -912px;
+}
+
+.grid-view .icon-xmin {
+    background-position: -684px -912px;
+}
+
+.grid-view .icon-htm {
+    background-position: -798px -912px;
+}
+
+.grid-view .icon-html {
+    background-position: -912px -912px;
+}
+
+.grid-view .icon-c {
+    background-position: -1026px -912px;
+}
+
+.grid-view .icon-xml {
+    background-position: -1140px -912px;
+}
+
+.grid-view .icon-asp {
+    background-position: 1px -1026px;
+}
+
+.grid-view .icon-chm {
+    background-position: -114px -1026px;
+}
+
+.grid-view .icon-hlp {
+    background-position: -228px -1026px;
+}
+
+.grid-view .icon-ttf {
+    background-position: -342px -1026px;
+}
+
+.grid-view .icon-ttc {
+    background-position: -456px -1026px;
+}
+
+.grid-view .icon-otf {
+    background-position: -570px -1026px;
+}
+
+.grid-view .icon-fon {
+    background-position: -684px -1026px;
+}
+
+.grid-view .icon-bak {
+    background-position: -798px -1026px;
+}
+
+.grid-view .icon-tmp {
+    background-position: -912px -1026px;
+}
+
+.grid-view .icon-old {
+    background-position: -1026px -1026px;
+}
+
+.grid-view .icon-zip {
+    background-position: 1px -1140px;
+}
+
+.grid-view .icon-7z {
+    background-position: -114px -1140px;
+}
+
+.grid-view .icon-rar {
+    background-position: -228px -1140px;
+}
+
+.grid-view .icon-iso {
+    background-position: -342px -1140px;
+}
+
+.grid-view .icon-ace {
+    background-position: -456px -1140px;
+}
+
+.grid-view .icon-cab {
+    background-position: -570px -1140px;
+}
+
+.grid-view .icon-uue {
+    background-position: -684px -1140px;
+}
+
+.grid-view .icon-jar {
+    background-position: -798px -1140px;
+}
+
+.grid-view .icon-tar {
+    background-position: -912px -1140px;
+}
+
+.grid-view .icon-dmg {
+    background-position: -1026px -1140px;
+}
+
+.grid-view .icon-note {
+    background-position: -456px -1253px;
+}
+
+.grid-view .icon-document,
+.grid-view .icon-exec,
+.grid-view .icon-code,
+.grid-view .icon-image,
+.grid-view .icon-video,
+.grid-view .icon-compress,
+.grid-view .icon-link,
+.grid-view .icon-unknow,
+.grid-view .icon-file {
+    background-position: -228px -1254px;
+}
+
+.grid-view .icon-filebroken {
+    background-position: -342px -1254px;
+}

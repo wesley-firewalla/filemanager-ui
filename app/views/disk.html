@@ -1,0 +1,55 @@
+<div ng-controller="DiskController">
+    <div class="main-header">
+        <div class="toolbar">
+            <button class="btn btn-default"><i class="fa fa-mouse-pointer"></i> Move</button>
+            <button class="btn btn-default"><i class="fa fa-pencil-square-o"></i> Rename</button>
+            <button class="btn btn-default"><i class="fa fa-trash-o"></i> Delete</button>
+            <button class="btn btn-default"><i class="fa fa-folder"></i> New Folder</button>
+            <button class="btn btn-default"><i class="fa fa-refresh"></i></button>
+            <div class="view-mode">
+                <button class="btn btn-default" ng-class="{'active': showTree }" ng-click="toggleTree()"><i class="fa fa-columns"></i></button>
+                <div dropdown="dropdown" class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" dropdown-toggle aria-haspopup="true" aria-expanded="false">
+                        <i class="fa" ng-class="viewModeButtonIconClass"></i> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a href="" ng-click="sortByDate('fa-clock-o')"><i class="fa fa-clock-o"></i> Sort by date</a></li>
+                        <li><a href="" ng-click="sortByAlphabetic('fa-sort-alpha-asc')"><i class="fa fa-sort-alpha-asc"></i> Sort by alphabetic</a></li>
+                        <li><a href="" ng-click="showGridView('fa-th-large')"><i class="fa fa-th-large"></i> Show grid view</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ol class="breadcrumb">
+            <li>
+                <div class="checkbox c-checkbox">
+                    <label>
+                        <input type="checkbox" ng-model="allSelected" ng-change="selectAll()"><span class="fa fa-check"></span></label>
+                </div>
+            </li>
+            <li ng-repeat="item in breadcrumbs">
+                <a href="" ng-click="clickItem(item)" ng-if="item.virtualPath != currentPath">{{item.name}}</a>
+                <span class="active" ng-if="item.virtualPath == currentPath">{{item.name}}</span>
+            </li>
+        </ol>
+    </div>
+    <div class="main-content">
+        <div class="empty" ng-show="items.length == 0">
+            Empty
+        </div>
+        <div class="file-list" ng-class="{'grid-view': isGridView, 'list-view': !isGridView}">
+            <div ng-repeat="item in items">
+                <div class="file-list-item" ng-class="{'selected': item.isSelected }">
+                    <div class="checkbox c-checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="item.isSelected" ng-change="selectItem()"><span class="fa fa-check"></span></label>
+                    </div>
+                    <i class="filetype icon-{{item.type}}" ng-click="clickItem(item)"></i>
+                    <span class="name" ng-click="clickItem(item)">{{ item.name }}</span>
+                    <span class="size">{{ item.size }}</span>
+                    <span class="time">{{item.createdAt}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
