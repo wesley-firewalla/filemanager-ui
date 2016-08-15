@@ -8,6 +8,5 @@
   "node_modules/angular-resource/angular-resource.js",
   "node_modules/angular-toastr/dist/angular-toastr.tpls.js",
   "node_modules/oclazyload/dist/ocLazyLoad.js",
-  "node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js",
-  "node_modules/angular-sanitize/angular-sanitize.js"
+  "node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"
 ]
