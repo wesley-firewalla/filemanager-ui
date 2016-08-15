@@ -49,20 +49,6 @@ gulp.task('scripts:base', function () {
         .pipe(gulp.dest('app/js'));
 });
 
-// copy file from bower folder into the app vendor folder
-gulp.task('scripts:vendor:app', function () {
-
-    var jsFilter = gulpFilter('**/*.js');
-
-    return gulp.src(require('./app.js.json'), {
-            base: 'bower_components'
-        })
-        .pipe(jsFilter)
-        .pipe(uglify())
-        .pipe(jsFilter.restore())
-        .pipe(gulp.dest('app/js/app.js'));
-});
-
 //---------------
 // WATCH
 //---------------
@@ -82,7 +68,6 @@ gulp.task('prod', function () {
 // default (no minify)
 gulp.task('default', gulpsync.sync([
     'scripts:base',
-    'scripts:vendor:app',
     'scripts:app',
     'start'
 ]), function () {

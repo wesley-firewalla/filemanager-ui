@@ -1,5 +1,5 @@
-var App = angular.module('fileManager', ['ngRoute', 'ngAnimate', 'ngStorage', 'ngSanitize',
-        'ngCookies', 'ui.bootstrap', 'ui.router', 'ngResource', 'xeditable', 'toastr', 'smart-table'
+var App = angular.module('fileManager', ['ngAnimate', 'ngStorage', 'ngSanitize',
+        'ngCookies', 'ui.bootstrap', 'ui.router', 'ngResource', 'toastr'
     ])
     .run(['$rootScope', '$state', '$stateParams', '$window', 'editableOptions', function ($rootScope, $state, $stateParams, $window, editableOptions) {
 
